@@ -1,0 +1,90 @@
+/*h1, h2, p, ul, ol,a, li, img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+} */
+
+
+/*  
+asterik is a wildcard selector that selects all elements 
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+} */
+
+
+/*
+h1 {
+    
+b                       order-bottom-width: 10px;
+border-bottom-style: das    hed;
+border-bottom-color: #00f;  
+}
+*/
+
+li {
+    ;
+    border:  er: 10p x, dotted, blue;
+}
+
+* {
+    padding: ;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1,
+h2 {
+    margin: 15px;
+}
+
+* {
+    color: pink
+}
+
+h3 {
+    font-style: italic;
+    font-size: 60px;
+    font-family: "arial";
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    margin: 15px;
+    border-bottom: 1px, solid;
+    padding-bottom: 4px;
+    border-bottom-width: thick;
+}
+
+ul,
+ol {
+    padding-left: 40px;
+    font-weight: bold;
+    list-style: lower-greek;
+}
+
+
+/* example below is of a descendant selector*/
+
+
+/* read right to left, the li inside the ul is being targeted instead of targeting each seperately */
+
+ul li {
+    display: inline;
+    margin: 70px
+}
+
+p,
+img {
+    margin: 15px;
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    color: rgba(136, 136, 136, .8);
+}
